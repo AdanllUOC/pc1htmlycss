@@ -1,3 +1,5 @@
+
+/*1.Bloques */
 body {
   margin: 0;
   padding: 30px;
@@ -6,16 +8,72 @@ body {
   color: $uoc-corporate;
 }
 
-.uoc-logo {
+.logo {
   display: block;
   margin-bottom: 20px;
   width: 300px;
   height: auto;
 }
 
-.uoc-title {
+.logo--centrado {
+  display: block;
+  margin-bottom: 20px;
+  width: 300px;
+  height: auto;
+  align-content: center;
+}
+
+.imagenCV {
+  display: block;
+  margin-bottom: 20px;
+  width: 100px;
+  height: auto;
+}
+
+
+
+.titulo {
   font-family: $font-family-serif;
   font-size: 36px;
   font-weight: 700;
   color: $uoc-corporate;
 }
+
+.titulo__centrado {
+  font-family: $font-family-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: $uoc-corporate;
+  align-content: center;
+}
+.nombre {
+  font-family: $font-family-serif;
+  font-size: 26px;
+  font-weight: 100;
+  color: $uoc-corporate;
+}
+
+.menu {
+  width: 40%;
+  float: left;
+}
+
+.main {
+  width: 60%;
+  float: left;
+}
+
+.header {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.pie {
+  margin-top: 55px;
+  text-align: center;
+}
+
+/*2.Elementos */
+
+
+/*3.Modificadores */

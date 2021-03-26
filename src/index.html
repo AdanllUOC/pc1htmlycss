@@ -1,21 +1,67 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
+  <!-- 1.Cabecera -->
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>  <!-- Especica la codificación de caracteres y el contenido del documento -->
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- link hoja de estilo -->
+    <title>Curriculum Vitae</title><!-- Título de la página -->
+    <meta name="author" content="Adán Rafael López Lecuona"> <!-- Autor de la página -->
+    <meta name="description" content="PC1: HTML y CSS. Página de Inicio"> <!-- Descripción de la página -->
   </head>
+  <!-- 2.Cuerpo -->
   <body>
-    <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+	<!-- Menu  -->
+  <div class="header">
+    <ul>
+      <li><a  href="#">Inicio</a></li>
+    </ul>
+  </div>
+  <div class="menu">
+    
+          <div>
+              <h1 class="titulo">Curriculum Vitae</h1>
+              <img src="./assets/images/fotoCV.jpg" alt="imagen CV" class="imagenCV">
+              <h4 class="nombre">Adan Rafael López Lecuona</h4>
+             
+            </div>
+            
+       
+          </div>
+          <div class="main">
+                <div>
+
+                    <h3>Datos Personales:</h3>
+                    <ul>
+                        <li>DNI:	X.732.X.Y</li>
+                        <li>Dirección:	38612 El Médano, Santa Cruz de Tenerife</li>
+                        <li> Móvil: 			X.X.X</li>
+                        <li>E-mail:			X@gmail.com</li>
+                        <li>Fecha de nacimiento: 	28/10/1990</li>
+                  </ul>
+                 
+                    <h3>Formación académica:</h3>
+                    <ul>
+                   <li>Grado en Ingeniería Informática,  2018</li>
+                   <li> Universidad de La Laguna</li>
+                   <li> Santa Cruz de Tenerife, España</li>
+                  </ul>
+                  
+                  
+                </div>
+          </div>
+      
+     <!-- 3. Parte de la pie de página de la página -->
+     <div class="pie">
+       
+        <div class="titulo__centrado">Actividad realizada  por Adán Rafael López Lecuona. </div>
+        <center>
+          <img src="./assets/images/logo.png" alt="logo UOC" class="logo">
+        </center>
+
+     </div>
+
+    <script src="./assets/scripts/main.js"></script><!-- importación de script de javascript -->
   </body>
 </html>
